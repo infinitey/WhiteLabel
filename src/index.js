@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { View, Image, Text, StyleSheet, Picker, AppState } from 'react-native';
 import Styles from './Styles.js';
 
+import BrandCard from './components/BrandCard.js';
+
 export default class App extends Component {
 
   /*constructor(props) {
@@ -21,10 +23,9 @@ export default class App extends Component {
           </Text>
         </View>
         <View style={Styles.content}>
-          <Image style={Styles.brandCard} source={require('./images/brandIMG.jpg')}>
-             <Text style={Styles.brandCardText}>Inside</Text>
-          </Image>
-          <Image style={Styles.brandCard} source={require('./images/brandIMG.jpg')} />        
+          <BrandCard />
+          <BrandCard />
+          <BrandCard />
         </View>
       </View>
     );

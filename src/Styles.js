@@ -7,6 +7,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 
+  sampleChanges: {
+
+  },
+
   verticalLayout: {
     flex: 1,
     justifyContent: 'flex-start',
